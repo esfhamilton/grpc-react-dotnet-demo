@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pa/867b1LRI36sSYVErV00etE09s8nErqza6blR4vKNlnj5qkDhx8dnOI7aJUq9XF1zDaecdS5hdtWxOh9J7qQ==",
+  "dgSpecHash": "EJMNc/+89V8Yn5lqzrL1UzRf3eIewRoDV3eYLl7sBvoW3orQEGdy0q3LboCYZgAXBVa4fFsuzBcircuo8qOL9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FiercePC\\Documents\\Programming\\CSharp\\grpc-react-demo\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\FiercePC\\Documents\\Programming\\CSharp\\grpc-react-dotnet-demo\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FiercePC\\.nuget\\packages\\google.protobuf\\3.21.5\\google.protobuf.3.21.5.nupkg.sha512",
     "C:\\Users\\FiercePC\\.nuget\\packages\\grpc.aspnetcore\\2.49.0\\grpc.aspnetcore.2.49.0.nupkg.sha512",
