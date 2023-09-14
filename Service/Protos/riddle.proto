@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "Service";
+
+package riddle;
+
+service Riddle{
+	rpc GetPositiveAffirmation(PositiveAffirmationRequest) returns (PositiveAffirmationReply);
+	rpc GetNewRiddle(RiddleRequest) returns (RiddleReply);
+	rpc SubmitRiddleAnswer(RiddleAnswerRequest) returns (RiddleAnswerReply);
+}
+
+message PositiveAffirmationRequest {}
+
+message PositiveAffirmationReply {
+	string affirmation = 1;
+}
+
+message RiddleRequest {
+	int32 riddle_id = 1;
+}
+
+message RiddleReply{
+	int32 riddle_id = 1;
+	string riddle = 2;
+}
+
+message RiddleAnswerRequest {
+	int32 riddle_id = 1;
+	string answer = 2;
+}
+
+message RiddleAnswerReply {
+	bool is_correct = 1;
+}
